@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "cumprimento",
+         "patterns": ["Olá", "Como vai", "Tem alguém aí?", "Olá", "Olá", "Olá", "Bom dia","oi","Boa tarde","Boa noite","tem alguem ai?","oie"],
+         "responses": ["Bem Vindo a La Felicitá, Como podemos ajudar?"],
+         "context": [""]
+        },
+        {"tag": "Comprar",
+                "patterns": ["Quero", "Quero um Bolo", "Voces Vendem?", "Tem", "Queria um"],
+                "responses": ["Ok, Comprar algo"],
+                "context": [""]
+               },
+        {"tag": "sair",
+         "patterns": ["Tchau", "Até a próxima", "Tchau", "Bom papo com você, tchau", "Até a próxima vez","xau","bye"],
+         "responses": ["Até mais!", "Tenha um bom dia", "Tchau! Volte logo."],
+         "context": [""]
+        },
+        {"tag": "Agradecer",
+         "patterns": ["Obrigado", "Obrigado", "Isso é útil", "Incrível, obrigado", "Obrigado por me ajudar","vlw","massa"],
+         "responses": ["Fico feliz em ajudar!", "A qualquer hora!", "O prazer é meu"],
+         "context": [""]
+        },
+        {"tag": "SemResposta",
+         "patterns": [],
+         "responses": ["Não estou entendendo", "Por favor, me dê mais informações pois não entendi", "Não tenho certeza se entendi"],
+         "context": [""]
+        },
+        {"tag": "cardapio",
+         "patterns": ["Quais produtos voce tem?","Cadapio","cardápio","Lista de itens","Lista de produtos"],
+         "responses": ["Esses são nossos produtos, Fotos no menu do contato"],
+         "context": [""]
+        },
+        {"tag": "inicio",
+         "patterns": ["Menu","Sair","Sai","Volta","Voltar","Outras opções"],
+         "responses": ["Voltando ao Inicio..."],
+         "context": [""]
+        }
+   ]
+}
