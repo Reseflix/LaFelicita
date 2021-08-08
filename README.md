@@ -1,2 +1,2 @@
 # LaFelicita
-Venda de Bolos
+Bot para venda de bolos e sobremesas.
