@@ -13,6 +13,7 @@ Nesse texto era necessario entender
 - "Um": Refere-se a um Inteiro = 1.
 - "Chocolate": tipo do produto
 - "Bolo": item da categoria
+
 Semelhante ao oque acontece com o watson assistant da IBM
 porem as partes de intenções estão configuradas para entender quando o cliente gostaria de comprar um bolo.
 # tensorflow/keras
